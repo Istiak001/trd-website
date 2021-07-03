@@ -1,0 +1,168 @@
+/*
+	//////////=------ Universal CSS ------=\\\\\\\\\\\
+*/
+*{margin:0;padding:0;}
+/*
+	//////////=------ Comon CSS ------=\\\\\\\\\\\
+*/
+body{}
+img{
+	width:100%;
+	height:auto;
+}
+.d_p{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+
+
+/*
+	//////////=------ Header CSS ------=\\\\\\\\\\\
+*/
+.header_bg{
+	background-image: url(img/black.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:600px;
+}
+header{
+	padding:50px 0px;
+}
+header h1{
+	color: blue;
+	padding-top:90px;
+}
+header p{
+	color:white;
+	font-weight:bold;
+	font-size:25px;
+	padding:20px 0px;
+}
+nav{
+	padding-bottom:90px;
+}
+nav ul{
+	margin:0 auto;
+	list-style-type:none;
+	background:black;
+	border-radius: 30px;
+}
+nav ul li{
+	display:inline-block;
+	padding:10px 30px;
+}
+nav ul li a{
+	display:inline-block;
+	padding:15px 50px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:white;
+}
+nav ul li a:hover{}
+/*
+	//////////=------ Section CSS ------=\\\\\\\\\\\
+*/
+.section_bg{
+	background:#dfe4ea;
+}
+.Section_container{
+	overflow:hidden;
+	padding:20px 0px;
+}
+.card{
+	border:none;
+	padding:15px 0px;
+}
+.section_heading h3{
+	margin-left:4px;
+	padding:10px;
+}
+.section_card{
+	font-weight:bold;
+}
+.section_card{}
+.section_card h5{
+	padding:5px 5px;
+}
+.section_card p{
+	padding:5px 10px 5px 5px;
+}
+.section_card a{
+	margin-top:8px;
+	font-weight:bold;
+}
+/*
+	//////////=------ Container CSS ------=\\\\\\\\\\\
+*/
+.container_section{
+	overflow:hidden;
+	padding:35px 0px;
+}
+.container_section .card p a{
+	color:red;
+}
+.container_section .btn-dark{
+	padding:10px 25px;
+}
+.right_child{
+	padding-top:20px;
+}
+.right_child a{
+	display:block;
+	padding-top:5px;
+	color:red;
+}
+/*
+	//////////=------ Footer CSS ------=\\\\\\\\\\\
+*/
+.footer_bg{
+	background:#2f3542;
+	border-bottom:4px solid #57606f;
+}
+.footer_container{
+	color:white;
+	overflow:hidden;
+	padding:35px 0px;
+}
+footer{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.footer_child img{
+	width:90px;
+	height:95px;
+}
+.footer_child .card-text p{
+	margin-bottom: 20px
+	padding:0px 3px;
+}
+.justify{
+	text-align: justify;
+}
+.k{
+	margin-bottom: 25px;
+	padding:0px 4px;
+}
+.footer_link a{
+	color:red;
+	display: block;
+	margin-top: 5px;
+}
+/*
+	//////////=------ Copyright CSS ------=\\\\\\\\\\\
+*/
+.copyright_bg{
+	background:#353b48;
+}
+.copyright_container{
+	overflow:hidden;
+	padding:10px 0px;
+}
+.copyright_container p{
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+}
